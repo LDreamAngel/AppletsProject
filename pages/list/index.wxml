@@ -1,0 +1,10 @@
+<!--pages/list/index.wxml-->
+<view class="list">
+    <navigator class="list_item" wx:for="{{list}}" wx:key="index">
+        <!--<text>{{index+1}}</text>-->
+        <image class="item_pic" src="{{item.avatar}}" mode="widthFix" lazy-load="false" />
+        <!--<view class="item_name">{{item.nickname}}</view>-->
+    </navigator>
+</view>
+  
+  

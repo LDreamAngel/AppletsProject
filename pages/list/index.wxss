@@ -1,0 +1,14 @@
+/* pages/list/index.wxss */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .list_item {
+  margin: 10rpx;
+  display: flex;
+}
+.list .list_item .item_pic {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
